@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+*{
+    margin:0px; padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Heebo', sans-serif;
+}
+#navbar{
+    border:1px solid black;
+    background:rgba(0,0,0,0.85);
+    color:rgba(255,255,255,0.5);
+}
+#navbar p,#navbar h4{
+    display:inline-block;
+    padding:5px;
+    font-size:19px;
+    margin:12px 10px;
+}
+#navbar p:hover{
+    color:rgba(255,255,255,0.8);
+    border-bottom:2px solid red;
+    cursor:pointer;
+}
+#navbar h4{
+    font-size:21px;
+    padding:10px 15px;
+    color:rgb(200, 171, 99);
+}
+.card{
+    height:280px;
+     width:360px;
+}
+#main{
+    display:flex;
+    flex-wrap: wrap;
+}
+button a{
+    text-decoration:none;
+    padding:10px;
+    color:white;
+    background:rgb(68, 138, 196);
+    border-radius:15px;
+    margin-top:10px;
+}
+button{
+    margin:15px 0px 0px 15px;
+    border:0px solid black;
+}
+img{
+    height: 140px; width:100%;
+}
+.title{
+    font-weight:800;
+    font-size:16px;
+}
+.time{
+    color:rgb(68, 138, 196);
+    font-weight: 800;
+}
+p{
+  margin:8px 0px;
+  margin-left:8px;
+  margin-right:2px;
+}
+.cardbody{
+    border:1px solid black;
+    margin:30px;
+}
+#header{
+    border:1px solid black;
+    font-size:24px;
+    font-weight:800;
+    padding:15px 10px 10px 25px;
+    background-color:rgba(0,0,0,0.05);
+}
+
